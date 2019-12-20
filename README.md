@@ -115,4 +115,6 @@ Refer to the GitHub [repository](https://github.com/dbilgili/Custom-ReactJS-Drop
 
 # Custom Styling
 
+*Note:* This fork introduces conditional classes applied to the root elements of the rendered dropdown menus to allow custom CSS to be applied when the dropdown is active with the `dd-open` class, as well as when a selection has been made from the menu through the `dd-header-selection` class.
+
 Refer to the [following](https://github.com/dbilgili/Custom-ReactJS-Dropdown-Components/blob/master/src/styles/stylus/dropdown.styl) styling file for overriding the default styles. You can create your own styling file with the same class names in order to do your custom styling.

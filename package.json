@@ -1,7 +1,7 @@
 {
   "name": "dropdown",
-  "homepage": "https://dbilgili.github.io/Custom-ReactJS-Dropdown-Components",
-  "version": "0.1.0",
+  "homepage": "https://github.com/jkohrman/Custom-ReactJS-Dropdown-Components",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",

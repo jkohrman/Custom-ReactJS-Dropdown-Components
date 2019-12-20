@@ -58,9 +58,9 @@ class DropdownMultiple extends Component{
     const{list, toggleItem} = this.props
     const{listOpen, headerTitle} = this.state
     return(
-      <div className="dd-wrapper">
+      <div className={ this.state.listOpen ? "dd-wrapper dd-open" : "dd-wrapper" }>
         <div className="dd-header" onClick={() => this.toggleList()}>
-            <div className="dd-header-title">{headerTitle}</div>
+            <div className={ this.state.headerTitle === this.props.title ? "dd-header-title" : "dd-header-title dd-header-selection" }>{headerTitle}</div>
             {listOpen
               ? <FontAwesome name="angle-up" size="2x"/>
               : <FontAwesome name="angle-down" size="2x"/>
